@@ -1,0 +1,23 @@
+{
+  "name": "JIRA_RelaseMgmt",
+  "version": "0.0.1",
+  "description": "Create Jira Ticket from Web Forms",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "exec": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "isomorphic-unfetch": "^2.0.0",
+    "next": "^4.2.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-markdown": "^3.3.0"
+  }
+}
